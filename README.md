@@ -63,7 +63,7 @@ $finder = PhpCsFixer\Finder::create()->in([
     __DIR__.'/tests',
 ]);
 
-return Fls\PhpStyles\styles($finder);
+return FrictionlessDigital\PhpStyles\styles($finder);
 ```
 
 ## Usage

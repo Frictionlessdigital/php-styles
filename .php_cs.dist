@@ -4,4 +4,4 @@ $finder = PhpCsFixer\Finder::create()->in([
     __DIR__.'/src',
 ]);
 
-return Fls\PhpStyles\styles($finder);
+return FrictionlessDigital\PhpStyles\styles($finder);
