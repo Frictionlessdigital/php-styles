@@ -21,12 +21,12 @@ The package is public, but is not published in Packagist. You need to add it dir
 > N.B.:
 >
 > For local development copy, update the location of the package in `composer.json`
-> (assuming you cloned the package to `~\Code\fls`):
+> (assuming you cloned the package to `~\Code\frictionlessdigital`):
 ```json
     "repositories": [
         {
             "type": "path",
-            "url": "~/Code/fls/php-styles",
+            "url": "~/Code/frictionlessdigital/php-styles",
             "symlink": true
         },
     ],
@@ -35,7 +35,7 @@ The package is public, but is not published in Packagist. You need to add it dir
 and then run
 
 ```bash
-composer require fls/php-styles --dev
+composer require frictionlessdigital/php-styles --dev
 ```
 
 It will add the package to the `require-dev` block of your `composer.json`.
@@ -44,7 +44,7 @@ You can also add it manually, like this, to get the latest version:
 
 ```json
     "require-dev": {
-        "fls/php-styles": "dev-master"
+        "frictionlessdigital/php-styles": "dev-master"
     },
 ```
 
