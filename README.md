@@ -13,7 +13,7 @@ The package is public, but is not published in Packagist. You need to add it dir
 "repositories": [
     {
         "type": "vcs",
-        "url": "git@github.com:fls/php-styles.git"
+        "url": "git@github.com:Frictionlessdigital/php-styles.git"
     },
 ],
 ```
