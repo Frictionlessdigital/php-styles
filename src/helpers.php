@@ -1,6 +1,6 @@
 <?php
 
-namespace Fls\PhpStyles;
+namespace FrictionlessDigital\PhpStyles;
 
 use AdamWojs\PhpCsFixerPhpdocForceFQCN\Fixer\Phpdoc\ForceFQCNFixer;
 use PhpCsFixer\Config;
