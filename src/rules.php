@@ -5,9 +5,11 @@
 return [
     '@Symfony' => true,
     'array_syntax' => ['syntax' => 'short'],
+    'concat_space' => 'one',
     'final_class' => false,
     'new_with_braces' => true,
     'no_superfluous_phpdoc_tags' => false,
+    'not_operator_with_successor_space' => true,
     'ordered_imports' => ['imports_order' => ['class', 'function', 'const'], 'sort_algorithm' => 'alpha'],
     'phpdoc_separation' => false,
 ];
