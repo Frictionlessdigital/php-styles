@@ -5,7 +5,7 @@
 return [
     '@Symfony' => true,
     'array_syntax' => ['syntax' => 'short'],
-    'concat_space' => 'one',
+    'concat_space' => ['spacing' => 'none'],
     'final_class' => false,
     'new_with_braces' => true,
     'no_superfluous_phpdoc_tags' => false,
