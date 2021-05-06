@@ -50,7 +50,7 @@ You can also add it manually, like this, to get the latest version:
 
 ## Integration
 
-PHP-CS-Fixer is going to expect your configuration to be in a `/.php_cs.dist` file.
+PHP-CS-Fixer is going to expect your configuration to be in a `/.php-cs-fixer.dist.php` file.
 
 ```php
 <?php
@@ -63,14 +63,16 @@ $finder = PhpCsFixer\Finder::create()->in([
     __DIR__.'/tests',
 ]);
 
-return FrictionlessDigital\PhpStyles\styles($finder);
+return FrictionlessDigital\PhpStyles\styles($finder, [
+    // ... custom rules
+]);
 ```
 
 ## Usage
 
-And now you can run the fix like this:
+And now you can run the fix like this (` --verbose --show-progress=estimating` will add progress):
 ```bash
-./vendor/bin/php-cs-fixer fix
+./vendor/bin/php-cs-fixer fix  --verbose --show-progress=estimating
 ```
 
 ## Change log

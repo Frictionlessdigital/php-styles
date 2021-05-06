@@ -1,6 +1,6 @@
 <?php
 
-// last reviewed: v1.1.0 Betta
+// last reviewed: v2.0.0 Betta
 
 return [
     '@Symfony' => true,
@@ -11,5 +11,6 @@ return [
     'no_superfluous_phpdoc_tags' => false,
     'not_operator_with_successor_space' => true,
     'ordered_imports' => ['imports_order' => ['class', 'function', 'const'], 'sort_algorithm' => 'alpha'],
+    'php_unit_method_casing' => ['case' => 'snake_case'],
     'phpdoc_separation' => false,
 ];
