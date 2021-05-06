@@ -8,4 +8,6 @@ $finder = PhpCsFixer\Finder::create()->in([
     __DIR__.'/tests',
 ]);
 
-return FrictionlessDigital\PhpStyles\styles($finder);
+return FrictionlessDigital\PhpStyles\styles($finder, [
+    /// ... add your rules here
+]);
